@@ -1,0 +1,42 @@
+.navigation {
+    background: #F2F2F2;
+    padding-inline: 24px;
+
+    height: 100%;
+}
+
+.content {
+    margin-inline: auto;
+    max-width: 1095px;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /*justify-content: space-between;*/
+    gap: 25px;
+}
+
+.header {
+    display: grid;
+    align-items: center;
+    align-items:flex-start;
+}
+
+.headline {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.153px;
+    color: #1D1D1B;
+
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.head {
+    margin-inline: auto;
+    display: flex;
+    height: 529px;
+    width: 1005px;
+    gap: 18px;
+}

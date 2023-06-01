@@ -1,0 +1,61 @@
+.header {
+    color: white;
+    background: linear-gradient(180deg, #BB1E1E 71.29%, #B21919 99.95%);
+    padding-inline: 24px;
+}
+
+.content {
+    margin-inline: auto;
+    max-width: 1095px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+
+.link {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.link.active {
+    font-weight: 700;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn1 {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 9%;
+}
+
+.botun1 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #1D1D1B;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.botun2 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}

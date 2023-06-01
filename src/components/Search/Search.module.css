@@ -1,0 +1,60 @@
+.search {
+    background-color: #F2F2F2;
+    padding-inline: 24px;
+}
+
+.content {
+    margin-inline: auto;
+    max-width: 1095px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    padding: 20px 0px;
+    display: grid;
+}
+
+.cnt {
+    margin-inline: auto;
+    max-width: 1095px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 43px;
+}
+
+.logo {
+    width: 140px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+}
+
+.lg {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    color: #BB1E1E;
+}
+
+.lg .black {
+    color: #1D1D1B;
+}
+
+.linija {
+    width: 1095px;
+    height: 1px;
+
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    border: 1px solid #979797;
+
+    margin-left: 175;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+

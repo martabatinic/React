@@ -1,0 +1,59 @@
+.articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    list-style: none;
+}
+
+.article {
+    background-color: white;
+    padding: 10px;
+
+    box-shadow: 0px 1px 2px -1px #C8CAD1;
+    border-radius: 8px;
+}
+
+.articleImage {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+
+    box-shadow: 0px 1px 2px -1px #C8CAD1;
+    border-radius: 8px;
+}
+
+.articleCategory {
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 900;
+
+    letter-spacing: -0.0153846px;
+    text-transform: uppercase;
+
+    color: #1E71BB;
+}
+
+.articleTitle {
+    font-size: 16px;
+    line-height: 20px;
+    font-size: 500;
+
+    letter-spacing: -0.11px;
+    padding-bottom: 15px;
+    color: #000000;
+}
+
+.articleAuthor {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.0675px;
+
+    padding-bottom: 5px;
+    color: #1D1D1B;
+}
+
+.favouriteIcon {
+    max-height: 20px;
+    max-width: 20px;
+    
+}
